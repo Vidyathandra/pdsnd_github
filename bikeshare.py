@@ -21,7 +21,7 @@ def get_filters():
     print (city)
     while (city != 'Chicago' and city != 'Newyork' and city != 'Washington'):
         city = input("Please make a valid selection : Chicago , Newyork , Washington : ")
-        #print ("Inside While loop")
+        
     print (city) 
     #print ("After while loop")
       

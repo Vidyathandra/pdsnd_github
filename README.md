@@ -14,5 +14,6 @@ Washington.csv
 
 
 ### Credits
-www.udacity.com
+www.udacity.com <br/>
+www.launchcode.com
 
