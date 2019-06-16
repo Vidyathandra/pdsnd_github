@@ -142,7 +142,7 @@ def station_stats(df):
     df['Concatenate']= df['Start Station']+ df['End Station']
     Popularcombination= df['Concatenate'].mode() [0]
     #print(df.groupby(['Start Station', 'End Station']).agg('max'))
-    print ("Most Popular combination : ", Popularcombination)
+    print ("Most Popular combination for the selection: ", Popularcombination)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -156,7 +156,7 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     df['Diff']= df['End Time']-df['Start Time']
     Total_travel_time = df['Diff'].sum()
-    print (" Total Travel time: ", Total_travel_time)
+    print (" Total Travel time for the selection : ", Total_travel_time)
 
 
     # TO DO: display mean travel time
