@@ -114,8 +114,8 @@ def time_stats(df):
     Popular_month = df['Month'].mode() [0]
     Popular_hour = df['Hour'].mode() [0]
     Popular_day = df['Day'].mode() [0]
-    print ("Most popular hour : ", Popular_hour)
-    print ("Most common Month: ", Popular_month)
+    print ("Most popular hour with the specific selection : ", Popular_hour)
+    print ("Most common Month with the specific selection: ", Popular_month)
     print ("Most common Day: ", Popular_day)
     
 def station_stats(df):
